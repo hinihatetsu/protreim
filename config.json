@@ -1,0 +1,37 @@
+{
+  "outline": {
+    "color": "black",
+    "width_x": 30,
+    "width_y": 30
+  },
+  "text": {
+    "font": {
+      "name": "meiryo.ttc",
+      "face": 0,
+      "size": 48
+    },
+    "color": "white",
+    "stroke_width": 0,
+    "stroke_color": "black",
+    "x": 0,
+    "y": 0
+  },
+  "title": {
+    "font": {
+      "name": "meiryo.ttc",
+      "face": 0,
+      "size": 48
+    },
+    "color": "white",
+    "stroke_width": 0,
+    "stroke_color": "black",
+    "x": 0,
+    "y": 0
+  },
+  "background": {
+    "color": "white",
+    "grabcut_iter_count": 5,
+    "boundary_fore": 90,
+    "boundary_back": 160
+  }
+}

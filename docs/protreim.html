@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>protreim package &mdash; Protreim 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Protreim
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">protreim package</a><ul>
+<li><a class="reference internal" href="#subpackages">Subpackages</a></li>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-protreim.cli">protreim.cli module</a></li>
+<li><a class="reference internal" href="#module-protreim.common">protreim.common module</a></li>
+<li><a class="reference internal" href="#module-protreim.foreground">protreim.foreground module</a></li>
+<li><a class="reference internal" href="#module-protreim.interface">protreim.interface module</a></li>
+<li><a class="reference internal" href="#module-protreim.process">protreim.process module</a></li>
+<li><a class="reference internal" href="#module-protreim.typing">protreim.typing module</a></li>
+<li><a class="reference internal" href="#module-protreim">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Protreim</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>protreim package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/protreim.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="protreim-package">
+<h1>protreim package<a class="headerlink" href="#protreim-package" title="Permalink to this headline">¶</a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="protreim.config.html">protreim.config package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="protreim.config.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.config.html#module-protreim.config.background">protreim.config.background module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.config.html#module-protreim.config.base">protreim.config.base module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.config.html#module-protreim.config.font">protreim.config.font module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.config.html#module-protreim.config.outline">protreim.config.outline module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.config.html#module-protreim.config.text">protreim.config.text module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.config.html#module-protreim.config.title">protreim.config.title module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.config.html#module-protreim.config">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="protreim.gui.html">protreim.gui package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="protreim.gui.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="protreim.gui.windows.html">protreim.gui.windows package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="protreim.gui.windows.html#subpackages">Subpackages</a></li>
+<li class="toctree-l4"><a class="reference internal" href="protreim.gui.windows.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="protreim.gui.windows.html#module-protreim.gui.windows.base">protreim.gui.windows.base module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="protreim.gui.windows.html#module-protreim.gui.windows.root">protreim.gui.windows.root module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="protreim.gui.windows.html#module-protreim.gui.windows">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.gui.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.gui.html#module-protreim.gui.icon">protreim.gui.icon module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="protreim.gui.html#module-protreim.gui">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-protreim.cli">
+<span id="protreim-cli-module"></span><h2>protreim.cli module<a class="headerlink" href="#module-protreim.cli" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="protreim.cli.Namespace">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">protreim.cli.</span></span><span class="sig-name descname"><span class="pre">Namespace</span></span><a class="headerlink" href="#protreim.cli.Namespace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="protreim.cli.Namespace.config_path">
+<span class="sig-name descname"><span class="pre">config_path</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">pathlib.Path</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">WindowsPath('config.json')</span></em><a class="headerlink" href="#protreim.cli.Namespace.config_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="protreim.cli.Namespace.file">
+<span class="sig-name descname"><span class="pre">file</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">pathlib.Path</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">WindowsPath('.')</span></em><a class="headerlink" href="#protreim.cli.Namespace.file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="protreim.cli.Namespace.log_level">
+<span class="sig-name descname"><span class="pre">log_level</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'info'</span></em><a class="headerlink" href="#protreim.cli.Namespace.log_level" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="protreim.cli.Namespace.output">
+<span class="sig-name descname"><span class="pre">output</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">pathlib.Path</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">WindowsPath('_protreim')</span></em><a class="headerlink" href="#protreim.cli.Namespace.output" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="protreim.cli.Namespace.text">
+<span class="sig-name descname"><span class="pre">text</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></em><a class="headerlink" href="#protreim.cli.Namespace.text" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="protreim.cli.Namespace.title">
+<span class="sig-name descname"><span class="pre">title</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">''</span></em><a class="headerlink" href="#protreim.cli.Namespace.title" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="protreim.cli.Namespace.version">
+<span class="sig-name descname"><span class="pre">version</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">False</span></em><a class="headerlink" href="#protreim.cli.Namespace.version" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="protreim.cli.execute">
+<span class="sig-prename descclassname"><span class="pre">protreim.cli.</span></span><span class="sig-name descname"><span class="pre">execute</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#protreim.cli.execute" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="protreim.cli.parse_args">
+<span class="sig-prename descclassname"><span class="pre">protreim.cli.</span></span><span class="sig-name descname"><span class="pre">parse_args</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">args</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Sequence</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.cli.Namespace" title="protreim.cli.Namespace"><span class="pre">protreim.cli.Namespace</span></a></span></span><a class="headerlink" href="#protreim.cli.parse_args" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-protreim.common">
+<span id="protreim-common-module"></span><h2>protreim.common module<a class="headerlink" href="#module-protreim.common" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-protreim.foreground">
+<span id="protreim-foreground-module"></span><h2>protreim.foreground module<a class="headerlink" href="#module-protreim.foreground" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="protreim.foreground.extract_foreground">
+<span class="sig-prename descclassname"><span class="pre">protreim.foreground.</span></span><span class="sig-name descname"><span class="pre">extract_foreground</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">im</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">PIL.Image.Image</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">background_color</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">grabcut_iter_count</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary_fore</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">90</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary_back</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">160</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">PIL.Image.Image</span></span></span><a class="headerlink" href="#protreim.foreground.extract_foreground" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract foreground of image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>im</strong> (<em>PIL.Image.Image</em>) – Target image.</p></li>
+<li><p><strong>background_color</strong> (<em>Color</em>) – Background color.</p></li>
+<li><p><strong>grabcut_iter_count</strong> (<em>int</em>) – Number of iteration of GrabCut algorithm.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Extracted forground image.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>PIL.Image.Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-protreim.interface">
+<span id="protreim-interface-module"></span><h2>protreim.interface module<a class="headerlink" href="#module-protreim.interface" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="protreim.interface.Protreim">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">protreim.interface.</span></span><span class="sig-name descname"><span class="pre">Protreim</span></span><a class="headerlink" href="#protreim.interface.Protreim" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>API of Protreim.</p>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span> <span class="o">=</span> <span class="n">Protreim</span><span class="p">()</span>
+<span class="go"># Customize config</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">outline</span><span class="o">.</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;blue&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">size</span> <span class="o">+=</span> <span class="mi">10</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">background</span><span class="o">.</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;skyblue&#39;</span>
+<span class="go"># Build process chain</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span> <span class="o">=</span> <span class="n">protreim</span><span class="o">.</span><span class="n">extract_foreground</span><span class="p">()</span><span class="o">.</span><span class="n">draw_outline</span><span class="p">()</span><span class="o">.</span><span class="n">draw_text</span><span class="p">(</span><span class="s1">&#39;text&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">draw_title</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span>
+<span class="go"># Open image as PIL.Image.Image and call do()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">im</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;exampls/before.jpg&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">im</span> <span class="o">=</span> <span class="n">protreim</span><span class="o">.</span><span class="n">do</span><span class="p">(</span><span class="n">im</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="protreim.interface.Protreim.config">
+<span class="sig-name descname"><span class="pre">config</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="protreim.config.html#protreim.config.Config" title="protreim.config.Config"><span class="pre">protreim.config.Config</span></a></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;protreim.config.Config</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#protreim.interface.Protreim.config" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.interface.Protreim.do">
+<span class="sig-name descname"><span class="pre">do</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">im</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">PIL.Image.Image</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">PIL.Image.Image</span></span></span><a class="headerlink" href="#protreim.interface.Protreim.do" title="Permalink to this definition">¶</a></dt>
+<dd><p>Do built process.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>im</strong> (<em>PIL.Image.Image</em>) – Image to process.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Processed image.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>PIL.Image.Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.interface.Protreim.draw_outline">
+<span class="sig-name descname"><span class="pre">draw_outline</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.interface.Protreim.draw_outline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw outline on image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.interface.Protreim.draw_text">
+<span class="sig-name descname"><span class="pre">draw_text</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.interface.Protreim.draw_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw text on image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>text</strong> (<em>str</em>) – Text to draw on image.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.interface.Protreim.draw_title">
+<span class="sig-name descname"><span class="pre">draw_title</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.interface.Protreim.draw_title" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw text on lower of image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>title</strong> (<em>str</em>) – Text to draw on image.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.interface.Protreim.extract_foreground">
+<span class="sig-name descname"><span class="pre">extract_foreground</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.interface.Protreim.extract_foreground" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract foreground from image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>New instance of <cite>Protreim</cite></p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.interface.Protreim.load_config">
+<span class="sig-name descname"><span class="pre">load_config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filepath</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">os.PathLike</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.interface.Protreim.load_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load config.json.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>filepath</strong> (<em>str</em><em> | </em><em>os.Pathlike</em><em>[</em><em>str</em><em>]</em>) – path to config.json</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.interface.Protreim.submit">
+<span class="sig-name descname"><span class="pre">submit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">PIL.Image.Image</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PIL.Image.Image</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.interface.Protreim.submit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add ProcessFunc.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>func</strong> (<em>ProcessFunc</em>) – <cite>ProcessFunc</cite> is type of <cite>(PIL.Image.Image) -&gt; PIL.Image.Image</cite>.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-protreim.process">
+<span id="protreim-process-module"></span><h2>protreim.process module<a class="headerlink" href="#module-protreim.process" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="protreim.process.draw_outline">
+<span class="sig-prename descclassname"><span class="pre">protreim.process.</span></span><span class="sig-name descname"><span class="pre">draw_outline</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">im</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">PIL.Image.Image</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">color</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width_x</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width_y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">PIL.Image.Image</span></span></span><a class="headerlink" href="#protreim.process.draw_outline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw outline on the image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>im</strong> (<em>PIL.Image.Image.</em>) – Target image.</p></li>
+<li><p><strong>color</strong> (<em>Color</em>) – Color of outline.</p></li>
+<li><p><strong>width_x</strong> (<em>int</em>) – Width in pixel of side outline.</p></li>
+<li><p><strong>width_y</strong> (<em>int</em>) – Width in pixel of topdown outline.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Image on which outline is drawn.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>PIL.Image.Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="protreim.process.draw_text">
+<span class="sig-prename descclassname"><span class="pre">protreim.process.</span></span><span class="sig-name descname"><span class="pre">draw_text</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">im</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">PIL.Image.Image</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">color</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stroke_width</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stroke_color</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">font</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">PIL.ImageFont.ImageFont</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">margin_top</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">margin_left</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">PIL.Image.Image</span></span></span><a class="headerlink" href="#protreim.process.draw_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw <cite>text</cite> at center of image</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>im</strong> (<em>PIL.Image.Image</em>) – Target image.</p></li>
+<li><p><strong>text</strong> (<em>str</em>) – String to draw.</p></li>
+<li><p><strong>color</strong> (<em>Color</em>) – Color of the text.</p></li>
+<li><p><strong>stroke_width</strong> (<em>int</em>) – Width of stroke.</p></li>
+<li><p><strong>stroke_color</strong> (<em>Color</em>) – Color of stroke.</p></li>
+<li><p><strong>font</strong> (<em>PIL.ImageFont.ImageFont</em>) – Font of the text.</p></li>
+<li><p><strong>margin_top</strong> (<em>int</em>) – Margin top in pixel.</p></li>
+<li><p><strong>margin_left</strong> (<em>int</em>) – Margin left in pixel.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Image on which <cite>text</cite> is written.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>PIL.Image.Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="protreim.process.resize">
+<span class="sig-prename descclassname"><span class="pre">protreim.process.</span></span><span class="sig-name descname"><span class="pre">resize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">im</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">PIL.Image.Image</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">PIL.Image.Image</span></span></span><a class="headerlink" href="#protreim.process.resize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resize image to be 600px in pixel.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>im</strong> (<em>PIL.Image.Image</em>) – Image to process</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Resized image whose width is 600px.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>PIL.Image.Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-protreim.typing">
+<span id="protreim-typing-module"></span><h2>protreim.typing module<a class="headerlink" href="#module-protreim.typing" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-protreim">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-protreim" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="protreim.Protreim">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">protreim.</span></span><span class="sig-name descname"><span class="pre">Protreim</span></span><a class="headerlink" href="#protreim.Protreim" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>API of Protreim.</p>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span> <span class="o">=</span> <span class="n">Protreim</span><span class="p">()</span>
+<span class="go"># Customize config</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">outline</span><span class="o">.</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;blue&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">size</span> <span class="o">+=</span> <span class="mi">10</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">background</span><span class="o">.</span><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;skyblue&#39;</span>
+<span class="go"># Build process chain</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">protreim</span> <span class="o">=</span> <span class="n">protreim</span><span class="o">.</span><span class="n">extract_foreground</span><span class="p">()</span><span class="o">.</span><span class="n">draw_outline</span><span class="p">()</span><span class="o">.</span><span class="n">draw_text</span><span class="p">(</span><span class="s1">&#39;text&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">draw_title</span><span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span>
+<span class="go"># Open image as PIL.Image.Image and call do()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">im</span> <span class="o">=</span> <span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s1">&#39;exampls/before.jpg&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">im</span> <span class="o">=</span> <span class="n">protreim</span><span class="o">.</span><span class="n">do</span><span class="p">(</span><span class="n">im</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="protreim.Protreim.config">
+<span class="sig-name descname"><span class="pre">config</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="protreim.config.html#protreim.config.Config" title="protreim.config.Config"><span class="pre">protreim.config.Config</span></a></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;protreim.config.Config</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#protreim.Protreim.config" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.Protreim.do">
+<span class="sig-name descname"><span class="pre">do</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">im</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">PIL.Image.Image</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">PIL.Image.Image</span></span></span><a class="headerlink" href="#protreim.Protreim.do" title="Permalink to this definition">¶</a></dt>
+<dd><p>Do built process.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>im</strong> (<em>PIL.Image.Image</em>) – Image to process.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Processed image.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>PIL.Image.Image</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.Protreim.draw_outline">
+<span class="sig-name descname"><span class="pre">draw_outline</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.Protreim.draw_outline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw outline on image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#protreim.Protreim" title="protreim.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.Protreim.draw_text">
+<span class="sig-name descname"><span class="pre">draw_text</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.Protreim.draw_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw text on image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>text</strong> (<em>str</em>) – Text to draw on image.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#protreim.Protreim" title="protreim.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.Protreim.draw_title">
+<span class="sig-name descname"><span class="pre">draw_title</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.Protreim.draw_title" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw text on lower of image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>title</strong> (<em>str</em>) – Text to draw on image.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#protreim.Protreim" title="protreim.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.Protreim.extract_foreground">
+<span class="sig-name descname"><span class="pre">extract_foreground</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.Protreim.extract_foreground" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract foreground from image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>New instance of <cite>Protreim</cite></p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><a class="reference internal" href="#protreim.Protreim" title="protreim.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.Protreim.load_config">
+<span class="sig-name descname"><span class="pre">load_config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filepath</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">os.PathLike</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.Protreim.load_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load config.json.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>filepath</strong> (<em>str</em><em> | </em><em>os.Pathlike</em><em>[</em><em>str</em><em>]</em>) – path to config.json</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#protreim.Protreim" title="protreim.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="protreim.Protreim.submit">
+<span class="sig-name descname"><span class="pre">submit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">PIL.Image.Image</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">PIL.Image.Image</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#protreim.interface.Protreim" title="protreim.interface.Protreim"><span class="pre">protreim.interface.Protreim</span></a></span></span><a class="headerlink" href="#protreim.Protreim.submit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add ProcessFunc.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>func</strong> (<em>ProcessFunc</em>) – <cite>ProcessFunc</cite> is type of <cite>(PIL.Image.Image) -&gt; PIL.Image.Image</cite>.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>New instance of <cite>Protreim</cite>.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#protreim.Protreim" title="protreim.Protreim">Protreim</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Shuhei Nitta.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

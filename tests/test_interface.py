@@ -40,14 +40,18 @@ class TestProtreim(TestCase):
 
     def test_draw_text(self) -> None:
         text: str = 'text'
-        im = Protreim().draw_text(text).do(self.image)
+        p = Protreim()
+        p.config.text.font.name = 'DejaVuSans.ttf'
+        im = p.draw_text(text).do(self.image)
         im.show(f'{self.test_draw_text.__name__}, `{text}` shold show')
         self.assertEqual(type(im), Image.Image)
 
 
     def test_draw_title(self) -> None:
         title: str = 'title'
-        im = Protreim().draw_title(title).do(self.image)
+        p = Protreim()
+        p.config.title.font.name = 'DejaVuSans.ttf'
+        im = p.draw_title(title).do(self.image)
         im.show(f'{self.test_draw_title.__name__}, `{title}` shold show')
         self.assertEqual(type(im), Image.Image)
     

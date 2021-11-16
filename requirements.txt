@@ -1,3 +1,6 @@
 pillow
 opencv-python
 pysimplegui
+
+# For test
+mypy

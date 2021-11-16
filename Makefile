@@ -35,10 +35,9 @@ unittest:
 
 clitest:
 	protreim --version
-	protreim -f $(TEST_IMAGE_PATH) -o $(PROCESSED_DIR)/$(PROCESSED_NAME_BASE) --log-level debug 
-	protreim -f $(TEST_IMAGE_PATH) -o $(PROCESSED_DIR)/title.$(PROCESSED_NAME_BASE) --log-level debug --title $(TEST_TITLE) 
-	protreim -f $(TEST_IMAGE_PATH) -o $(PROCESSED_DIR)/text.$(PROCESSED_NAME_BASE) --log-level debug --text  $(TEST_TEXT) 
-	protreim -f $(TEST_IMAGE_PATH) -o $(PROCESSED_DIR)/config.$(PROCESSED_NAME_BASE) --log-level debug --config $(TEST_CONFIG_PATH) 
+	protreim -f $(TEST_IMAGE_PATH) -o $(PROCESSED_DIR)/$(PROCESSED_NAME_BASE) --log-level debug --config $(TEST_CONFIG_PATH)
+	protreim -f $(TEST_IMAGE_PATH) -o $(PROCESSED_DIR)/title.$(PROCESSED_NAME_BASE) --log-level debug --title $(TEST_TITLE) --config $(TEST_CONFIG_PATH)
+	protreim -f $(TEST_IMAGE_PATH) -o $(PROCESSED_DIR)/text.$(PROCESSED_NAME_BASE) --log-level debug --text  $(TEST_TEXT) --config $(TEST_CONFIG_PATH)
 
 
 guitest:
